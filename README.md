@@ -22,16 +22,6 @@ Sección "Main": Destaca el desarrollo integral del proyecto utilizando Bootstra
 Pie de Página (<footer>): Contiene información sobre IALLTRAINER, un mensaje motivacional y enlaces a las redes sociales del creador. También incluye el aviso de derechos de autor.
 
 
-Código Fuente de IALLTRAINER - Parte 2
-Este repositorio contiene la segunda parte del código fuente HTML, CSS y JavaScript para el proyecto IALLTRAINER. Este proyecto se centra en ofrecer una plataforma integral de entrenamiento virtual impulsada por inteligencia artificial.
-
-Tecnologías Destacadas
-HTML5 y CSS3: La estructura de la página y los estilos se han desarrollado utilizando HTML5 y CSS3, asegurando una presentación atractiva y una experiencia de usuario intuitiva.
-
-Bootstrap 5: El framework Bootstrap se ha empleado para crear componentes adicionales y garantizar una interfaz coherente en todo el proyecto.
-
-JavaScript: Se ha integrado JavaScript para proporcionar funcionalidades interactivas en diversas secciones del proyecto, mejorando la experiencia del usuario.
-
 Contenido de la Segunda Parte
 Encabezado (<header>): La barra de navegación permite a los usuarios moverse entre las secciones de la plataforma.
 
@@ -46,13 +36,12 @@ Carrusel de Categorías: La sección del carrusel utiliza JavaScript para mostra
 
 Filtrado de Categorías: Se ha implementado un sistema de filtrado que permite a los usuarios seleccionar el tipo de ejercicio que desean visualizar. Este filtro utiliza JavaScript para mostrar dinámicamente los resultados en la sección correspondiente.
 
-
 Contacto
-Puedes contactarme a través de las siguientes plataformas:
+Puedes encontrarme en las siguientes plataformas:
 
--LinkedIn
--GitHub
--Instagram
+- [LinkedIn](https://www.linkedin.com/in/tu-usuario/)
+- [GitHub](https://github.com/tu-usuario/)
+- [Instagram](https://www.instagram.com/tu-usuario/)
 
-Derechos de Autor
+ Derechos de Autor
 © 2023 IAlltrainer. Todos los derechos reservados.
