@@ -1,0 +1,299 @@
+/* Establecer la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Resetear márgenes, rellenos y modelo de caja */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuración de desplazamiento suave para la navegación */
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilizar enlaces y listas */
+a, li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+/* Configuración global del cuerpo del documento */
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Definición de variables de colores */
+:root{
+
+    --negrocolor:rgb(43, 43, 40);
+    --gris2: rgb(80, 80, 74);
+    --gris3: rgb(60, 60 ,60);
+    --naranja1:#ff8000;
+    --naranja2:#ff5500;
+    --amarillo:rgb(255, 166, 0);
+}
+
+/* Estilo del encabezado fijo */
+#header {
+    background-color: var(--negrocolor);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    z-index: 5;
+}
+
+/* Estilo del título en el encabezado */
+.header_titulo {
+    width: 33.33%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;    
+}
+
+/* Estilo del enlace en el título del encabezado */
+.header_titulo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo del bloque en el encabezado */
+.header_caja {
+    width: 33.33%;
+    height: 100%;
+    background-color: var(--negrocolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo del enlace en el bloque del encabezado */
+.header_caja a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: text-shadow 0.5s ease;
+}
+
+/* Efecto de sombra al pasar el ratón sobre el enlace del bloque del encabezado */
+.header_caja a:hover{
+    text-shadow: 
+    0 0 5px #ff8000, 
+    0 0 15px #ff8000, 
+    0 0 20px #ff8000, 
+    0 0 40px #ff8000, 
+    0 0 60px #ff8000, 
+    0 0 10px #ff8000, 
+    0 0 98px #ff8000;
+}
+
+/* Estilo del cuerpo principal */
+main{
+    background-color: var(--amarillo);
+}
+
+/* Estilo de la caja naranja */
+.caja_naranja{
+    height: 65px;
+}
+
+/* Estilo del texto */
+.texto{
+    color: white;
+}
+
+/* Estilos del carrusel */
+.carousel{ 
+    text-align: center;
+}
+
+.d-block{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 1.9rem;
+}
+
+.btn-carousel{
+    padding: .5rem 2rem;
+    color: white;
+    border: none;
+    background-color: skyblue;
+}
+
+.carousel-item {
+    background-color: var(--amarillo);
+    width: 80%;
+    height: 80%;
+}
+
+.fa-hand-point-left{
+    color: var(--gris3);
+}
+
+.fa-hand-point-right{
+    color: var(--gris3);
+}
+
+.categoria{
+    color: white;
+}
+
+/* Estilos de la sección de estaciones */
+.card{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid var(--naranja1);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 400px;
+}
+
+.img-card{
+    width: 170px;
+}
+
+.info-card>span{
+    font-weight: bold;
+}
+
+.ejercicio-cat{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.filtrar-categoria{
+    text-align: center;
+    height: 70px;
+    background-color: var(--naranja1);
+    width: 60%;
+    color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.filtrar-categoria-btn{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.btn-categoria{
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    padding: .7rem 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.btn-categoria:hover{
+    background: var(--naranja2);
+    color: white;
+}
+
+.fa-dumbbell{
+    color: var(--gris2);
+}
+
+/* Estilos de la descripción */
+.descripcion{
+    background:var(--amarillo);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.descripcion li{
+    color: white;
+}
+
+.descripcion a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    transition: text-shadow 0.5s ease;
+}
+
+.descripcion a:hover{
+    text-shadow: 
+    0 0 5px white, 
+    0 0 15px white, 
+    0 0 20px white, 
+    0 0 40px white, 
+    0 0 60px white, 
+    0 0 10px white, 
+    0 0 98px white;
+}
+
+.descripcion>span{
+    font-weight: 500;
+}
+
+/* Estilos del pie de página */
+#footer{
+    background-color: var(--negrocolor);
+    color: white;
+    height: 500px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: center;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.footers_c {
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.footers {
+    flex: 1; 
+    height: 50%; 
+}
+
+.lista-cont {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.lista-cont li {
+    margin-left: 20px; 
+}
+
+.derechos{
+    width: 100%;
+    text-align: center; 
+    background-color: var(--gris2); 
+}
+
+.lista-cont a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+.lista-cont a:active {
+    background-color:var(--naranja2); 
+}

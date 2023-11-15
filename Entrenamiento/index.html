@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IALLTRAINER - Tu entrenamiento Virtual</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/4658dde39a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+  </head>
+  <body>
+
+    <body>
+ <!-- Encabezado de la página -->
+ <header id="header">
+    <!-- Barra de navegación -->
+    <nav class="header_titulo" id="nav"><a href="#header">IALLTRAINER</a></nav>
+    <nav class="header_caja"></nav>
+    <nav class="header_caja"><a href="../index.html" > INICIO</a></nav>
+    <nav class="header_caja"><a href="#carouselExampleIndicators"> ENTRENAMIENTO</a></nav>
+    <nav class="header_caja"><a href="#cotac">CONTACTO</a></nav>
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main>
+    <!-- Sección del carrusel con categorías de entrenamiento -->
+    <section class="carousel animate__animated animate__backInLeft">
+      <!-- Elementos del carrusel -->
+      <div class="caja_naranja"></div>
+      <div class="texto"><h3> ELIGE EL TIPO DE ENTRENAMIENTO</h3></div>
+      <!-- Carrusel de imágenes -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators" >
+          <!-- Botones indicadores del carrusel -->
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        
+        <!-- Contenido del carrusel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="categoria">TIRON</div> 
+            <img src="./assets/espalda.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <div class="categoria">EMPUJE</div>
+            <img src="./assets/pecho.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <div class="categoria">PIERNAS</div>
+            <img src="./assets/piernas.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <div class="categoria">BRAZOS</div>
+            <img src="./assets/brazos.jpg" class="d-block" alt="..." />
+          </div>
+        </div>
+        
+        <!-- Controles del carrusel -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control" aria-hidden="true">
+            <i class="fa-solid fa-hand-point-left btn-2"></i>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control" aria-hidden="true">
+            <i class="fa-solid fa-hand-point-right btn-manejo"></i>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <!-- Cierre de la sección del carrusel -->
+      <div class="caja_naranja"></div>
+    </section>
+    
+    <!-- Sección de categorías de entrenamiento -->
+    <section class="categorias_ej" id="categorias_ej">
+      <!-- Filtro de categorías -->
+      <div class="filtrar-categoria">
+        <h4>Filtra el tipo de entrenamiento que quieras</h4>
+        <!-- Botones de filtro -->
+        <div class="filtrar-categoria-btn" id="filtrar">
+          <a href="#ejercicio-cat"><button class="btn-categoria" value="Empuje">EMPUJE</button></a>
+          <a href="#ejercicio-cat"><button class="btn-categoria" value="Tiron">TIRON</button></a>
+          <a href="#ejercicio-cat"><button class="btn-categoria" value="Piernas">PIERNAS</button></a>
+          <a href="#ejercicio-cat"><button class="btn-categoria" value="Brazos">BRAZOS</button></a>
+          <a href="#ejercicio-cat"><button class="btn-categoria" value="Todos">TODOS</button></a>
+        </div>
+      </div>
+      
+      <!-- Contenedor para mostrar ejercicios -->
+      <div class="ejercicio-cat" id="ejercicio-cat">
+        <!-- Contenido generado dinámicamente con JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer id="footer" class="caja">
+    <!-- Contenido del pie de página -->
+    <div class="footers_c">
+      <div class="footers _titulo">
+        <br /><br />
+        <h1>IALLTRAINER</h1>
+      </div>
+      <div class="footers _a">
+        <br /><br /><br /><br /><br />
+        <br /><br /><br />
+        <h3>Entrena de forma inteligente, alcanza tus objetivos.</h3>
+      </div>
+      <div class="footers _a">
+        <br /><br />
+        <h3>CONTACTO</h3>
+        <br />
+        <ul class="lista-cont" id="cotac">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/lautaro-bustamante-939967267"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i> LINKEDIN
+            </a>
+          </li>
+          <br />
+          <li>
+            <a href="https://github.com/Morodo00" target="_blank"
+              ><i class="fa-brands fa-github"></i> GIHUB</a
+            >
+          </li>
+          <br />
+          <li>
+            <a
+              href="https://www.instagram.com/lautaro.bustamante.7/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i> INSTAGRAM</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="derechos">
+      <p>&copy; 2023 IAlltrainer. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Enlaces a scripts de JavaScript -->
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

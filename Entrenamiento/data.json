@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "nombre": "Press de Banca",
+        "categoria": "Empuje",
+        "imagen": "./assets/1.jpg",
+        "serie": 3,
+        "repeticiones": "8-12",
+        "video":"https://www.youtube.com/shorts/KHz53XeMmto"
+    },
+    {
+        "id": 2,
+        "nombre": "Press de Hombres con Mancuernas",
+        "categoria": "Empuje",
+        "imagen": "./assets/2.jpg",
+        "serie": 3,
+        "repeticiones": "10-15",
+        "video":"https://www.youtube.com/watch?v=GELRUlUSxeI&pp=ygUecHJlc3MgZGUgaG9tYnJvIGNvbiBtYW5jdWVybmFz"
+    },
+    {
+        "id": 3,
+        "nombre": "Fondo en Paralelas",
+        "categoria": "Empuje",
+        "imagen": "./assets/3.jpg",
+        "serie": 3,
+        "repeticiones": "Al fallo",
+        "video":"https://www.youtube.com/shorts/lC7lLkjDZ_k"
+    },
+    {
+        "id": 4,
+        "nombre": "Aperturas con mancuernas",
+        "categoria": "Empuje",
+        "imagen": "./assets/4.jpg",
+        "serie": 3,
+        "repeticiones": "12-15",
+        "video":"https://www.youtube.com/shorts/C7Nq4DgV9Mg"
+    },
+    {
+        "id": 5,
+        "nombre": "Dominadas",
+        "categoria": "Tiron",
+        "imagen": "./assets/5.jpg",
+        "serie": 4,
+        "repeticiones": "Al fallo",
+        "video":"https://www.youtube.com/shorts/LerajxEGimU"
+    },
+    {
+        "id": 6,
+        "nombre": "Peso muerto",
+        "categoria": "Tiron",
+        "imagen": "./assets/6.jpg",
+        "serie": 4,
+        "repeticiones": "8-12",
+        "video":"https://www.youtube.com/shorts/3EhkrUEEPOg"
+    },
+
+    {
+        "id": 7,
+        "nombre": "Remo con barra T",
+        "categoria": "Tiron",
+        "imagen": "./assets/7.jpg",
+        "serie": 3,
+        "repeticiones": "10-15",
+        "video":"https://www.youtube.com/shorts/pLRImHTi6j0"
+    },
+    {
+        "id": 8,
+        "nombre": "Curl de bíceps con barra",
+        "categoria": "Tiron",
+        "imagen": "./assets/8.jpg",
+        "serie": 3,
+        "repeticiones": "12-15",
+        "video":"https://www.youtube.com/shorts/WnDxMH-adp8"
+    },
+    {
+        "id": 9,
+        "nombre": "Curl martillo",
+        "categoria": "Brazos",
+        "imagen": "./assets/9.jpg",
+        "serie": 4,
+        "repeticiones": "10-12",
+        "video":"https://www.youtube.com/shorts/1pTUHKXGaSs"
+    },
+    {
+        "id": 10,
+        "nombre": "Press Frances con Mancuernas",
+        "categoria": "Brazos",
+        "imagen": "./assets/10.jpg",
+        "serie": 4,
+        "repeticiones": "10-15",
+        "video":"https://www.youtube.com/shorts/DFFD1LU_iXw"
+    },
+    {
+        "id": 11,
+        "nombre": "Curl Araña con Mancuernas",
+        "categoria": "Brazos",
+        "imagen": "./assets/11.jpg",
+        "serie": 4,
+        "repeticiones": "10-15",
+        "video":"https://www.youtube.com/watch?v=ozPuwy1HP0E&pp=ygUNcHJlc3MgYXJhw7FhIA%3D%3D"
+    },
+    {
+        "id": 12,
+        "nombre": "Extensiones de tríceps",
+        "categoria": "Brazos",
+        "imagen": "./assets/12.jpg",
+        "serie": 4,
+        "repeticiones": "10-15",
+        "video":"https://www.youtube.com/shorts/smLEQsRMnc8"
+    },
+    {
+        "id": 13,
+        "nombre": "Sentadillas",
+        "categoria": "Piernas",
+        "imagen": "./assets/13.jpg",
+        "serie": 4,
+        "repeticiones": "8-12",
+        "video":"https://www.youtube.com/shorts/ik7kBOHKvvs"
+    },
+    
+    {
+        "id": 14,
+        "nombre": "Prensa de piernas",
+        "categoria": "Piernas",
+        "imagen": "./assets/14.jpg",
+        "serie": 3,
+        "repeticiones": "10-15",
+        "video":"https://www.youtube.com/shorts/OT7gKslX6pA"
+    },
+    {
+        "id": 15,
+        "nombre": "Peso muerto rumano",
+        "categoria": "Piernas",
+        "imagen": "./assets/15.jpg",
+        "serie": 3,
+        "repeticiones": "10-12",
+        "video":"https://www.youtube.com/shorts/MdSaNA1nOnw"
+    },
+    {
+        "id": 16,
+        "nombre": "Curl femoral",
+        "categoria": "Piernas",
+        "imagen": "./assets/16.jpg",
+        "serie": 3,
+        "repeticiones": "12-15",
+        "video":"https://www.youtube.com/shorts/6JQflLWhKfg"
+    }
+    
+   
+]
